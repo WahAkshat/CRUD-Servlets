@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+  <servlet>
+    <servlet-name>Welcome</servlet-name>
+    <servlet-class>Welcome_19BCE2670</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Welcome</servlet-name>
+    <url-pattern>/Welcome</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ViewData</servlet-name>
+    <servlet-class>ViewData_19BCE2670</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ViewData</servlet-name>
+    <url-pattern>/ViewData</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>UpdateData</servlet-name>
+    <servlet-class>UpdateData_19BCE2670</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UpdateData</servlet-name>
+    <url-pattern>/UpdateData</url-pattern>
+  </servlet-mapping>
+
+  <session-config>
+    <session-timeout>
+      30
+    </session-timeout>
+  </session-config>
+</web-app>
